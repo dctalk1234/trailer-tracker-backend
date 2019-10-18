@@ -2,7 +2,7 @@
 
 ## Wireframe Images
 
- ![](./public/Images/FrontEnd-Framework.png) 
- ![](./public/Images/FrontEnd-Components.png)
- ![](./public/Images/BackEnd.png)
+ ![](./public/images/FrontEnd-Framework.png) 
+ ![](./public/images/FrontEnd-Components.png)
+ ![](./public/images/BackEnd.png)
 
