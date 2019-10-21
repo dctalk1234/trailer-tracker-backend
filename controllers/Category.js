@@ -13,4 +13,24 @@ router.get('/:title', (req,res) => {
         res.json(pop);
     })
 })
+
+router.put('/:title', (req,res) => {
+    CategoryModel.findOneAndUpdate({title: req.params.title}, req.body).then(() => {
+        res.redirect('/');
+    })
+})
+
+router.post('/', (req,res) => {
+    CategoryModel.create(req.body).then(newCategory => {
+        res.redirect(`/category/${newCategory.title}`);
+    })
+})
+
+router.delete('/:title', (req,res) => {
+    CategoryModel.deleteOne({_id: req.params.id}).then(() => {
+        res.redirect('/');
+    })
+})
+
+
 module.exports = router;
