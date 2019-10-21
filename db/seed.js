@@ -16,8 +16,8 @@ Movie.deleteMany({}).then(() => {
 						console.log(moviesToAdd);
 						for (let i = 0; i < moviesToAdd.length; i++) {
 							action.movies.push(moviesToAdd[i])
-                        }
-                        action.save();
+						}
+						action.save();
 						console.log("category data");
 					});
 				});

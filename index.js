@@ -5,6 +5,12 @@ const movieController = require("./controllers/Movie");
 const categoryController = require("./controllers/Category");
 const parser = require("body-parser");
 const methodOverride = require("method-override");
+const axios = require('axios')
+
+
+// app.set('views', __dirname + '/views');
+// app.set('view engine', 'jsx');
+// app.engine('jsx', require('express-react-views').createEngine());
 
 app.use(parser.urlencoded({ extended: true }))
 app.use(parser.json())
@@ -15,8 +21,9 @@ app.get("/", (req, res) => {
     res.redirect("/Category");
 });
 
+
 // app.use("/Category/", categoryController);
-// app.use("/Movie/", movieController);
+app.use("/Movie/", movieController);
 
 app.use('/public', express.static('public'))
 
