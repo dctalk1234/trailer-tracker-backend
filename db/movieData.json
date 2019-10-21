@@ -1,109 +1,109 @@
 [
 	{
 		"title": "Dragonslayer",
-		"trailer": "https://youtu.be/RSWznYdY_e8",
+		"trailer": "https://www.youtube.com/embed/DHJ-gZUqD2o",
 		"genre": ["Action", "Adventure", "Fantasy"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BZmNhNjUxN2EtMTRkNi00YzAzLTg5ODgtZjc2ZTUyNDBjODljXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SY1000_CR0,0,667,1000_AL_.jpg",
 		"releaseYear": 1981
 	},
 	{
 		"title": "Real Genius",
-		"trailer": "https://youtu.be/0DGqESj21bQ",
+		"trailer": "https://www.youtube.com/embed/0DGqESj21bQ",
 		"genre": ["Comedy", "Romance", "Sci-Fi"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BNTQ5MzU3ODg0OF5BMl5BanBnXkFtZTgwODM0MzQxMDE@._V1_.jpg",
 		"releaseYear": 1985
 	},
 	{
 		"title": "The Dark Crystal",
-		"trailer": "https://youtu.be/wW23YcaBHUg",
+		"trailer": "https://www.youtube.com/embed/wW23YcaBHUg",
 		"genre": ["Adventure", "Adventure", "Fantasy"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BNTU2MmJiZmQtZjBmMS00MTk4LWFmOWYtZGQzOTY5ODNjYWVhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,637,1000_AL_.jpg",
 		"releaseYear": 1982
 	},
 	{
 		"title": "Contact",
-		"trailer": "https://youtu.be/_1spaRVuhVQ",
+		"trailer": "https://www.youtube.com/embed/_1spaRVuhVQ",
 		"genre": ["Drama", "Mystery", "Sci-Fi", "Thriller"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BYWNkYmFiZjUtYmI3Ni00NzIwLTkxZjktN2ZkMjdhMzlkMDc3XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX672_AL_.jpg",
 		"releaseYear": 1997
 	},
 	{
 		"title": "Remember the Titans",
-		"trailer": "https://youtu.be/nPhu9XsRl4M",
+		"trailer": "https://www.youtube.com/embed/nPhu9XsRl4M",
 		"genre": ["biography", "sport", "Drama"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BYThkMzgxNjEtMzFiOC00MTI0LWI5MDItNDVmYjA4NzY5MDQ2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 		"releaseYear": 2000
 	},
 	{
 		"title": "The Prestige",
-		"trailer": "https://youtu.be/ObGVA1WOqyE",
+		"trailer": "https://www.youtube.com/embed/ObGVA1WOqyE",
 		"genre": ["drama", "mystery", "thriller"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg",
 		"releaseYear": 2006
 	},
 	{
 		"title": "Gone Baby Gone",
-		"trailer": "https://youtu.be/JyT0_wfQR2Y",
+		"trailer": "https://www.youtube.com/embed/JyT0_wfQR2Y",
 		"genre": ["drama", "mystery", "thriller", "crime"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BYmM2NDNiNGItMTRhMi00ZDA2LTgzOWMtZTE2ZjFhMDQ2M2U5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
 		"releaseYear": 2007
 	},
 	{
 		"title": "Good Will Hunting",
-		"trailer": "https://youtu.be/PaZVjZEFkRs",
+		"trailer": "https://www.youtube.com/embed/PaZVjZEFkRs",
 		"genre": ["drama", "romance"],
 		"poster": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
 		"releaseYear": 2007
 	},
 	{
 		"title": "Captain Marvel",
-		"realeaseYear": 2019,
-		"trailer": "https://www.youtube.com/watch?v=moY78qMJuxM",
+		"releaseYear": 2019,
+		"trailer": "https://www.youtube.com/embed/moY78qMJuxM",
 		"genre": ["action"]
 	},
 	{
 		"title": "Marvel's Thor Ragnarok",
-		"realeaseYear": 2017,
-		"trailer": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+		"releaseYear": 2017,
+		"trailer": "https://www.youtube.com/embed/ue80QwXMRHg",
 		"genre": ["action"]
 	},
 	{
 		"title": "Bad Boy's For Life",
-		"realeaseYear": 2020,
-		"trailer": "https://www.youtube.com/watch?v=jKCj3XuPG8M",
+		"releaseYear": 2020,
+		"trailer": "https://www.youtube.com/embed/jKCj3XuPG8M",
 		"genre": ["action"]
 	},
 	{
 		"title": "Cool World",
-		"realeaseYear": 1992,
-		"trailer": "https://www.youtube.com/watch?v=q32xMkroUwE",
+		"releaseYear": 1992,
+		"trailer": "https://www.youtube.com/embed/q32xMkroUwE",
 		"genre": ["action"]
 	},
 
 	{
 		"title": "The Dark Knight",
-		"trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+		"trailer": "https://www.youtube.com/embed/EXeTwQWrcwY",
 		"genre": ["Action", "Crime", "Drama"],
 		"poster": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiB39zc3KblAhUFaq0KHXB6B4wQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.amazon.com%2FDark-Knight-Christian-Bale%2Fdp%2FB001I189MQ&psig=AOvVaw1GqeA-eXXa7RQ_9axkFybc&ust=1571519563080522",
 		"releaseYear": 2008
 	},
 	{
 		"title": "American Sniper",
-		"trailer": "https://www.youtube.com/watch?v=5bP1f_1o-zo",
+		"trailer": "https://www.youtube.com/embed/5bP1f_1o-zo",
 		"genre": ["Action", "Biography", "Drama"],
 		"poster": "https://images-na.ssl-images-amazon.com/images/I/41kcZZlsC2L._AC_.jpg",
 		"releaseYear": 2015
 	},
 	{
 		"title": "Interstellar",
-		"trailer": "https://www.youtube.com/watch?v=2LqzF5WauAw",
+		"trailer": "https://www.youtube.com/embed/2LqzF5WauAw",
 		"genre": ["Adventure", "Drama", "SciFi"],
 		"poster": "https://www.imdb.com/title/tt0816692/mediaviewer/rm4043724800",
 		"releaseYear": 2014
 	},
 	{
 		"title": "V For Vendetta",
-		"trailer": "https://www.youtube.com/watch?v=lSA7mAHolAw",
+		"trailer": "https://www.youtube.com/embed/lSA7mAHolAw",
 		"genre": ["Action", "Drama", "SciFi"],
 		"poster": "https://www.imdb.com/title/tt0434409/mediaviewer/rm2227779328",
 		"releaseYear": 2005
