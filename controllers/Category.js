@@ -8,9 +8,8 @@ router.get("/", (req, res) => {
 	});
 });
 
-router.get('/:id', (req,res) => {
-    CategoryModel.findOne({_id: req.params.id}).populate('movies').exec((err, pop) => {
-        console.log(pop);
+router.get('/:title', (req,res) => {
+    CategoryModel.findOne({title: req.params.title}).populate('movies').exec((err, pop) => {
         res.json(pop);
     })
 })
