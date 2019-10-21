@@ -22,8 +22,9 @@ app.get("/", (req, res) => {
 });
 
 
-// app.use("/Category/", categoryController);
+app.use("/Category/", categoryController);
 app.use("/Movie/", movieController);
+
 
 app.use('/public', express.static('public'))
 
