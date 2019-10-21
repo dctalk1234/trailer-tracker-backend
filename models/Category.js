@@ -1,8 +1,8 @@
 let mongoose = require("../db/connection");
 
 let CategorySchema = new mongoose.Schema({
-	Title: String,
-	Movies: [
+	title: String,
+	movies: [
 		{
 			ref: "Movie",
 			type: mongoose.Schema.Types.ObjectId
