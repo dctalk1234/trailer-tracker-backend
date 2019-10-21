@@ -1,4 +1,4 @@
-const mongoose = require("../app/db/connection");
+const mongoose = require("../db/connection");
 
 const movieschema = new mongoose.Schema({
     title: "String",
