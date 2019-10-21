@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
     res.redirect("/Category");
 });
 
-// app.use("/Category/", categoryController);
+app.use("/Category", categoryController);
 // app.use("/Movie/", movieController);
 
 app.use('/public', express.static('public'))
