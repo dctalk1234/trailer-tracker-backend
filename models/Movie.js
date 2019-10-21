@@ -1,11 +1,11 @@
 const mongoose = require("../db/connection");
 
 const movieschema = new mongoose.Schema({
-    title: "String",
-    trailer: "String",
-    genre: "String",
-    poster: "String",
-    releaseYear: "String"
+    title: String,
+    trailer: String,
+    genre: [String],
+    poster: String,
+    releaseYear: Number
 
 
 })
