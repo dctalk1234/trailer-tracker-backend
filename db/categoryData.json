@@ -1,0 +1,21 @@
+[
+	{
+		"title": "Action",
+		"movies": [
+			{
+				"title": "V For Vendetta",
+				"trailer": "https://www.youtube.com/watch?v=lSA7mAHolAw",
+				"genre": ["Action", "Drama", "SciFi"],
+				"poster": "https://www.imdb.com/title/tt0434409/mediaviewer/rm2227779328",
+				"releaseYear": 2005
+			},
+			{
+				"title": "American Sniper",
+				"trailer": "https://www.youtube.com/watch?v=5bP1f_1o-zo",
+				"genre": ["Action", "Biography", "Drama"],
+				"poster": "https://images-na.ssl-images-amazon.com/images/I/41kcZZlsC2L._AC_.jpg",
+				"releaseYear": 2015
+			}
+		]
+	}
+]
