@@ -78,5 +78,34 @@
 		"realeaseYear": 1992,
 		"trailer": "https://www.youtube.com/watch?v=q32xMkroUwE",
 		"genre": ["action"]
+	},
+
+	{
+		"title": "The Dark Knight",
+		"trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+		"genre": ["Action", "Crime", "Drama"],
+		"poster": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiB39zc3KblAhUFaq0KHXB6B4wQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.amazon.com%2FDark-Knight-Christian-Bale%2Fdp%2FB001I189MQ&psig=AOvVaw1GqeA-eXXa7RQ_9axkFybc&ust=1571519563080522",
+		"releaseYear": 2008
+	},
+	{
+		"title": "American Sniper",
+		"trailer": "https://www.youtube.com/watch?v=5bP1f_1o-zo",
+		"genre": ["Action", "Biography", "Drama"],
+		"poster": "https://images-na.ssl-images-amazon.com/images/I/41kcZZlsC2L._AC_.jpg",
+		"releaseYear": 2015
+	},
+	{
+		"title": "Interstellar",
+		"trailer": "https://www.youtube.com/watch?v=2LqzF5WauAw",
+		"genre": ["Adventure", "Drama", "SciFi"],
+		"poster": "https://www.imdb.com/title/tt0816692/mediaviewer/rm4043724800",
+		"releaseYear": 2014
+	},
+	{
+		"title": "V For Vendetta",
+		"trailer": "https://www.youtube.com/watch?v=lSA7mAHolAw",
+		"genre": ["Action", "Drama", "SciFi"],
+		"poster": "https://www.imdb.com/title/tt0434409/mediaviewer/rm2227779328",
+		"releaseYear": 2005
 	}
 ]
