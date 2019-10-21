@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Dragonslayer",
+		"trailer": "https://youtu.be/RSWznYdY_e8",
+		"genre": ["Action", "Adventure", "Fantasy"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BZmNhNjUxN2EtMTRkNi00YzAzLTg5ODgtZjc2ZTUyNDBjODljXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SY1000_CR0,0,667,1000_AL_.jpg",
+		"releaseYear": 1981
+	},
+	{
+		"title": "Real Genius",
+		"trailer": "https://youtu.be/0DGqESj21bQ",
+		"genre": ["Comedy", "Romance", "Sci-Fi"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTQ5MzU3ODg0OF5BMl5BanBnXkFtZTgwODM0MzQxMDE@._V1_.jpg",
+		"releaseYear": 1985
+	},
+	{
+		"title": "The Dark Crystal",
+		"trailer": "https://youtu.be/wW23YcaBHUg",
+		"genre": ["Adventure", "Adventure", "Fantasy"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BNTU2MmJiZmQtZjBmMS00MTk4LWFmOWYtZGQzOTY5ODNjYWVhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,637,1000_AL_.jpg",
+		"releaseYear": 1982
+	},
+	{
+		"title": "Contact",
+		"trailer": "https://youtu.be/_1spaRVuhVQ",
+		"genre": ["Drama", "Mystery", "Sci-Fi", "Thriller"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BYWNkYmFiZjUtYmI3Ni00NzIwLTkxZjktN2ZkMjdhMzlkMDc3XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SY1000_SX672_AL_.jpg",
+		"releaseYear": 1997
+	},
+	{
+		"title": "Remember the Titans",
+		"trailer": "https://youtu.be/nPhu9XsRl4M",
+		"genre": ["biography", "sport", "Drama"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BYThkMzgxNjEtMzFiOC00MTI0LWI5MDItNDVmYjA4NzY5MDQ2L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+		"releaseYear": 2000
+	},
+	{
+		"title": "The Prestige",
+		"trailer": "https://youtu.be/ObGVA1WOqyE",
+		"genre": ["drama", "mystery", "thriller"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_SX300.jpg",
+		"releaseYear": 2006
+	},
+	{
+		"title": "Gone Baby Gone",
+		"trailer": "https://youtu.be/JyT0_wfQR2Y",
+		"genre": ["drama", "mystery", "thriller", "crime"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BYmM2NDNiNGItMTRhMi00ZDA2LTgzOWMtZTE2ZjFhMDQ2M2U5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+		"releaseYear": 2007
+	},
+	{
+		"title": "Good Will Hunting",
+		"trailer": "https://youtu.be/PaZVjZEFkRs",
+		"genre": ["drama", "romance"],
+		"poster": "https://m.media-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+		"releaseYear": 2007
+	},
+	{
+		"title": "Captain Marvel",
+		"realeaseYear": 2019,
+		"trailer": "https://www.youtube.com/watch?v=moY78qMJuxM",
+		"genre": ["action"]
+	},
+	{
+		"title": "Marvel's Thor Ragnarok",
+		"realeaseYear": 2017,
+		"trailer": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+		"genre": ["action"]
+	},
+	{
+		"title": "Bad Boy's For Life",
+		"realeaseYear": 2020,
+		"trailer": "https://www.youtube.com/watch?v=jKCj3XuPG8M",
+		"genre": ["action"]
+	},
+	{
+		"title": "Cool World",
+		"realeaseYear": 1992,
+		"trailer": "https://www.youtube.com/watch?v=q32xMkroUwE",
+		"genre": ["action"]
+	}
+]
