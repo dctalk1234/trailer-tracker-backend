@@ -1,11 +1,12 @@
 const express = require('express')
 const app = express();
-const mongoose = require('mongoose')
 const movieController = require("./controllers/Movie");
 const categoryController = require("./controllers/Category");
 const parser = require("body-parser");
 const methodOverride = require("method-override");
-const axios = require('axios')
+const cors = require('cors');
+
+
 
 
 // app.set('views', __dirname + '/views');
@@ -16,6 +17,13 @@ app.use(parser.urlencoded({ extended: true }))
 app.use(parser.json())
 app.use(methodOverride("_method"))
 
+// const corsOptions = {
+//     origin: '*',
+//     optionsSuccessStatus: 200,
+//     credentials: true
+//   }
+
+app.use(cors());
 
 app.get("/", (req, res) => {
     res.redirect("/Category");
