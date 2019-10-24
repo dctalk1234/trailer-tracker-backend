@@ -29,7 +29,8 @@ router.post('/', (req, res) => {
 
 router.delete("/:title", (req, res) => {
     CategoryModel.findOneAndDelete({ title: req.params.title }).then(category => {
-        res.redirect("/");
+        console.log("deleted");
+        res.sendStatus(200);
     });
 });
 
