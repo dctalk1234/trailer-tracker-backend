@@ -27,20 +27,11 @@ router.post('/', (req, res) => {
 })
 
 
-
-
 router.delete("/:title", (req, res) => {
     CategoryModel.findOneAndDelete({ title: req.params.title }).then(category => {
         res.redirect("/");
     });
 });
 
-
-router.put('/:title', (req, res) => {
-    CategoryModel.findOneAndUpdate({ title: req.params.title }, req.body, { new: true })
-        .then(category => {
-            res.redirect("/");
-        })
-});
 
 module.exports = router;

@@ -13,11 +13,12 @@ router.get("/:title", (req, res) => {
 	});
 });
 
-router.delete("/:title", (req, res) => {
-	MovieModel.findOneAndDelete({ title: req.params.title }).then(() => {
-		res.redirect("/Movie");
-	});
-});
+// router.delete("/:title", (req, res) => {
+// 	MovieModel.findOneAndDelete({ title: req.params.title }).then(() => {
+// 		res.redirect("/Movie");
+// 	});
+// });
+
 router.get("/search/:name", (req, res) => {
 	axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&t=${req.params.name}`).then(movie => {
 		res.json(movie.data);
