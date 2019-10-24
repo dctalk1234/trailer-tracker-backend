@@ -19,7 +19,7 @@ router.delete("/:title", (req, res) => {
 	});
 });
 router.get("/search/:name", (req, res) => {
-	axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&t=${req.params.name}`).then(movie => {
+	axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&s=${req.params.name}`).then(movie => {
 		res.json(movie.data);
 	});
 });
@@ -43,6 +43,11 @@ router.post("/new/:title", (req, res) => {
 		});
 	});
 });
+// router.get("/search/:name", (req, res) => {
+// 	axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&t=${req.params.name}`).then(movie => {
+// 		res.json(movie.data);
+// 	});
+// });
 // router.post("/new/:title", (req, res) => {
 // 	axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&t=${req.params.title}`).then(movie => {
 // 		MovieModel.create({
