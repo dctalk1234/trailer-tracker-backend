@@ -25,7 +25,7 @@ router.get("/search/:name", (req, res) => {
 	});
 });
 
-router.post("/new/:title", (req, res) => {
+router.post("/new", (req, res) => {
 	axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&s=${req.params.title}`).then(movie => {
 		MovieModel.create({
 			title: movie.data.Title,
