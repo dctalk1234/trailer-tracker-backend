@@ -9,7 +9,7 @@ https://trailerstracker.herokuapp.com/Category
 
 ---
 
-##Motivation
+## Motivation
 
 Watching movies in general should be easy and fun. Being able to search a category and find trailers for the desired movie is an overlooked luxury. Our site makes this process easy and convenient.
 
@@ -19,7 +19,7 @@ Watching movies in general should be easy and fun. Being able to search a catego
 
 ---
 
-##Getting Started
+## Getting Started
 
 We started the project by brainstorming what we thought was different from apps that are out there currently.
 We create a user flow chart and a reference for our routes.
