@@ -34,7 +34,7 @@ To connect our Front and Back End we made sure to do a few additional steps. The
 
 ```
 router.get("/new/:title", (req, res) => {
-    axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&t=${req.params.title}`).then(movie => {
+    axios.get(`http://www.omdbapi.com/?apikey=XXXX&t=${req.params.title}`).then(movie => {
         MovieModel.create({
             title: movie.data.Title,
             genre: movie.data.Genre,
