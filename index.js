@@ -7,21 +7,10 @@ const methodOverride = require("method-override");
 const cors = require('cors');
 
 
-
-
-// app.set('views', __dirname + '/views');
-// app.set('view engine', 'jsx');
-// app.engine('jsx', require('express-react-views').createEngine());
-
 app.use(parser.urlencoded({ extended: true }))
 app.use(parser.json())
 app.use(methodOverride("_method"))
 
-// const corsOptions = {
-//     origin: '*',
-//     optionsSuccessStatus: 200,
-//     credentials: true
-//   }
 
 app.use(cors());
 
