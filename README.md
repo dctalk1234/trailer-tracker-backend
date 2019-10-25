@@ -41,7 +41,7 @@ router.get("/new/:title", (req, res) => {
             poster: movie.data.Poster,
             releaseYear: movie.data.Year
         }).then(newMovie => {
-            axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${req.params.title}Trailer&maxResults=1&key=AIzaSyC5tmdbvhs7dgZmTLSBxU754JgctKGrs68`).then(apiRes => {
+            axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${req.params.title}Trailer&maxResults=1&key=XXXX`).then(apiRes => {
                 console.log(apiRes.data.items[0].id.videoId);
 
                 newMovie.trailer = `https://www.youtube.com/embed/${apiRes.data.items[0].id.videoId}`;
