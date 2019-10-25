@@ -26,21 +26,32 @@ We create a user flow chart and a reference for our routes.
 
 The frameworks used for this project includes React, CSS, Express, MongoDB, Heroku, and Mongoose, and BootStrap.
 
-For the backend we started with the index.js , models, controllers, and seeding our database.We used 2 models: Category and Movies. The category set up was straight forward and included full CRUD. The Movie model set up had more to it. We incorporated Youtube and OMBD’s api. Our backend searches OMBD’s api by title and creates an instance of our Movie Model with title, genre, poster, and released year information. Then it searches Youtube’s api return results based on the title. We narrowed it down to only show Trailers of the title and will only return one result.
+For the backend we started with the index.js , models, controllers, and seeding our database.We used 2 models: Category and Movies. The category set up was straight forward and included full CRUD.
 
-To connect our Front and Back End we made sure to do a few additional steps. These included downloading and incorporating cors. We required it in our index.js.
+The Movie model set up had more to it. We incorporated Youtube and OMBD’s api. Our backend searches OMBD’s api by title and creates an instance of our Movie Model with title, genre, poster, and released year information. Then it searches Youtube’s api return results based on the title. We narrowed it down to only show Trailers of the title and will only return one result.
 
-```
-const cors = require('cors');
-
-```
-
-Made sure our backend knew to use it.
+To connect our Front and Back End we made sure to do a few additional steps. These included downloading and incorporating cors. We required it in our index.js. We also added axios. Router.put would not work with heroku so we had to change to router.get in order to actually get the information from OMBD and Youtube and create our own data.
 
 ```
-app.use(cors());
+router.get("/new/:title", (req, res) => {
+    axios.get(`http://www.omdbapi.com/?apikey=ef42ea14&t=${req.params.title}`).then(movie => {
+        MovieModel.create({
+            title: movie.data.Title,
+            genre: movie.data.Genre,
+            poster: movie.data.Poster,
+            releaseYear: movie.data.Year
+        }).then(newMovie => {
+            axios.get(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${req.params.title}Trailer&maxResults=1&key=AIzaSyC5tmdbvhs7dgZmTLSBxU754JgctKGrs68`).then(apiRes => {
+                console.log(apiRes.data.items[0].id.videoId);
 
+                newMovie.trailer = `https://www.youtube.com/embed/${apiRes.data.items[0].id.videoId}`;
+                newMovie.save();
 
+                res.json(newMovie);
+            });
+        });
+    });
+});
 ```
 
 While working on the project we had to make sure our backend and frontend were not listening on the same ports.
