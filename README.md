@@ -60,7 +60,7 @@ We then connected our backend to Heroku and seeded our Heroku database.
 
 
 ## Set Up
-To get your own copy of this application you can simply fork and download this repository. Run mongod, then node db/seed.js, followed by nodemon index.js. This will run the app at localhost:3000.
+To get your own copy of this application you can simply fork and download this repository. Run mongod, then node db/seed.js, followed by nodemon index.js. This will run the app at localhost:8080.
 
 
 ## Current Version
@@ -73,4 +73,4 @@ You can see the most recently updated deployed version of the front end is hoste
 * mongoose.js
 * MongoDB
 * Heroku (for deployment)
-
+* Axios for API Calls
