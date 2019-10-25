@@ -13,7 +13,7 @@ https://trailerstracker.herokuapp.com/Category
 
 Watching movies in general should be easy and fun. Being able to search a category and find trailers for the desired movie is an overlooked luxury. Our site makes this process easy and convenient.
 
-![](./public/images/FrontEnd-Framework.png)
+![](./public/images/FrontEnd-Framwork.png)
 ![](./public/images/FrontEnd-Components.png)
 ![](./public/images/BackEnd.png)
 
