@@ -30,7 +30,8 @@ For the backend we started with the index.js , models, controllers, and seeding 
 
 To connect our Front and Back End we made sure to do a few additional steps. These included downloading and incorporating cors. We required it in our index.js.
 
-```const cors = require('cors');
+```
+const cors = require('cors');
 
 ```
 
