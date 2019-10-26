@@ -68,9 +68,9 @@ You can see the most recently updated deployed version of the front end is hoste
 
 
 ## Technologies Used
-* node.js
-* express.js
-* mongoose.js
+* Node.js
+* Express.js
+* Mongoose
 * MongoDB
 * Heroku (for deployment)
 * Axios for API Calls
