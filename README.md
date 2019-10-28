@@ -5,10 +5,6 @@ This is an app that allows users to search Movie trailers in our database and OM
 Our backend is located here :
 https://trailerstracker.herokuapp.com/Category
 
-## Wireframe Images
-
----
-
 ## Motivation
 
 Watching movies in general should be easy and fun. Being able to search a category and find trailers for the desired movie is an overlooked luxury. Our site makes this process easy and convenient.
