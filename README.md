@@ -1,6 +1,6 @@
 # trailer-tracker-backend
 
-## This is an app that allows users to search Movie trailers in our database and OMBD’s database for the purpose of finding trailers for movies they may want to add to a play list or category.
+This is an app that allows users to search Movie trailers in our database and OMBD’s database for the purpose of finding trailers for movies they may want to add to a play list or category.
 
 Our backend is located here :
 https://trailerstracker.herokuapp.com/Category
